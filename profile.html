@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STATIC | Profile</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="profile-page">
+<header class="site-header">
+<a href="index.html" class="logo">STATIC<span>.</span></a>
+<nav class="main-nav" aria-label="Main">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+</header>
+<main class="centered">
+<div class="profile-wrap">
+<section class="profile-card">
+<img class="avatar" src="assets/images/avatar.svg" alt="Profile picture of slowdive_kid">
+<h1>slowdive_kid</h1>
+<p>shoegaze, rainy days, and too many pedals.</p>
+<div class="status-pill">
+<div class="cover"></div>
+<div>
+<p class="muted">Currently listening (sample data)</p>
+<p><strong>Pale Hours</strong> by Static Bloom</p>
+<a class="muted" href="album.html">Open album page</a>
+</div>
+</div>
+<form class="guestbook" action="#" method="post">
+<h2>Leave a message</h2>
+<label for="fullname">Full Name</label>
+<input type="text" id="fullname" name="fullname" required>
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<button class="btn" type="submit">Send message</button>
+</form>
+</section>
+<section class="panel mini-player" aria-label="Sample player (placeholder)">
+<div class="cover"></div>
+<div class="player-info">
+<p>Pale Hours</p>
+<progress value="14" max="113">0:14</progress>
+</div>
+<span class="muted">0:14 / 1:53</span>
+</section>
+</div>
+</main>
+<footer class="site-footer muted">STATIC, an HCI class project</footer>
+</body>
+</html>
